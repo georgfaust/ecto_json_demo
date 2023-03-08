@@ -19,7 +19,8 @@ defmodule EctoJsonDemo.MixProject do
 
   defp deps do
     [
-      {:ecto, "~> 3.8"}
+      {:ecto, "~> 3.8"},
+      {:jason, "~> 1.4"}
     ]
   end
 end
